@@ -1,0 +1,92 @@
+/*Header*/
+@media screen and (max-width: 1050px) {
+  .header__content {
+    flex-direction: column;
+    text-align: center; }
+  .content__description {
+    margin: 38px auto 95px; } }
+
+@media screen and (max-width: 685px) {
+  .navigation__wrapper {
+    display: none; }
+  .navigation__burger {
+    display: block; }
+  .btns-block__button {
+    width: 100%; }
+  .btns-block__button:not(:last-child) {
+    margin-right: 0px; } }
+
+/*Products*/
+@media screen and (max-width: 1350px) {
+  .services {
+    justify-content: center; }
+  .services-item:not(:last-child) {
+    margin-bottom: 30px; } }
+
+/*Details*/
+@media screen and (max-width: 1050px) {
+  .details-inner {
+    flex-direction: column;
+    align-items: center; }
+  .details-inner, .overview_left {
+    text-align: center; }
+  .overview__text_left::before {
+    left: 50%;
+    width: 6%; }
+  .overview__text_left::after {
+    left: 42%;
+    width: 6%; }
+  .details-content__list {
+    display: none; }
+  .details-logo_margin-bottom {
+    margin-bottom: 60px; } }
+
+/*Info*/
+@media screen and (max-width: 1050px) {
+  .info-inner {
+    flex-wrap: wrap;
+    justify-content: center; } }
+
+/*Pricings & Plans*/
+@media screen and (max-width: 1250px) {
+  .slick-slider {
+    width: 600px;
+    margin: 0 auto; } }
+
+@media screen and (max-width: 890px) {
+  .slick-slider {
+    width: auto;
+    margin: 0px; } }
+
+/*Theme*/
+@media screen and (max-width: 1110px) {
+  .theme__title {
+    margin-bottom: 30px; } }
+
+/*Price*/
+@media screen and (max-width: 1350px) {
+  .cost__item {
+    width: 49%;
+    margin-bottom: 30px; } }
+
+@media screen and (max-width: 750px) {
+  .cost__item {
+    width: auto; }
+  .cost {
+    flex-direction: column;
+    align-items: center; } }
+
+/*Contacts and Form*/
+@media screen and (max-width: 650px) {
+  .contacts-block {
+    flex-direction: column; }
+  .contacts-block > * {
+    margin-bottom: 30px; }
+  .form__wrapper {
+    height: auto; }
+  .form__subject {
+    margin-bottom: 20px; }
+  .form__massege {
+    margin-left: 0px; }
+  .form {
+    padding: 15px; } }

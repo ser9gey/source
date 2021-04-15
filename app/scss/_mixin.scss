@@ -1,0 +1,71 @@
+/*Mixin*/
+
+/*Title*/
+@mixin title {
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: $blue;
+}
+
+/*Header*/
+@mixin header {
+    font-family: SourceSansPro;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+/*Text*/
+@mixin text {
+    font-family: SourceSansPro;
+    font-size: 18px;
+    color: $dullGrey;
+    line-height: 25px;
+}
+
+/*White*/
+@mixin white {
+    font-family: SourceSansPro;
+    font-weight: 400;
+    color: $white; 
+}
+
+@mixin cost {
+    font-family: SourceSansPro;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+@mixin contacts {
+    font-family: SourceSansPro;
+    font-size: 18px;
+    line-height: 26px;
+    color: $dullGrey;
+}
+
+/*Btn*/
+@mixin btn {
+    border: 1px solid $lightAsphalt;
+    background: transparent;
+    font-family: SourceSansPro;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $white;
+    padding: 18px 25px;
+    border-radius: 3px;
+}
+
+/*Phone*/
+@mixin phone {
+    max-width: 100%;
+    height: auto;
+}
+
+/*Flex*/
+@mixin flex {
+    display: flex;
+    flex-wrap: wrap;
+}

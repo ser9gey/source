@@ -1,0 +1,23 @@
+/*Tamplates*/
+
+/*Hover-Line*/
+%hover-line {
+    content: "";
+    display: block;
+    background: $blue;
+    width: 45%;
+    height: 2px;
+    position: absolute;
+    opacity: 0;
+    bottom: -10px;
+}
+
+/*Line-Border*/
+%line-border {
+    content: "";
+    display: block;
+    background: $blue;
+    width: 2%;
+    height: 2px;
+    position: absolute;
+}
